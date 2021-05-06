@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import logo from "../images/pengucharacter.png"
 
 
 class Hobbies extends React.Component{
@@ -7,6 +7,7 @@ class Hobbies extends React.Component{
         return(
             <div>
                 <h1>Nigel is a Crocodilio because he is faster in water than on land</h1>
+                <img src= {logo} alt = "yty" height = "200" width = "200" />
             </div>
         );
     }

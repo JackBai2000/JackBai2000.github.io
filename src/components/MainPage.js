@@ -1,5 +1,7 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import pengu from '../images/gameplay.png'
+import jeck from '../images/isthisok.jpg'
+import racket from '../images/kek.jpg'
 
 class MainPage extends React.Component{
     render(){
@@ -43,7 +45,7 @@ class MainPage extends React.Component{
 
 							<section id="one" className="wrapper spotlight style1">
 								<div className="inner">
-									<a href="# " className="image"><img src="images/pic01.jpg" alt="" /></a>
+									<a href = "PastProjects" className="image"><img src= {pengu} alt="is this still working" /></a>
 									<div className="content">
 										<h2 className="major">Past Projects</h2>
 										<p>Personal Projects created using Unity and other technologies. Incldued are quick game demonstrations and tutorials!</p>
@@ -55,7 +57,7 @@ class MainPage extends React.Component{
 
 							<section id="two" className="wrapper alt spotlight style2">
 								<div className="inner">
-									<a href="# " className="image"><img src="images/pic02.jpg" alt="" /></a>
+									<a href="WorkExperience" className="image"><img src={racket} alt="Photo of Work" /></a>
 									<div className="content">
 										<h2 className="major">Work Experience and Extra Curriculars</h2>
 										<p>Here is sample text supposedly explaining my work experience and extra curricular involvement.</p>
@@ -67,7 +69,7 @@ class MainPage extends React.Component{
 
 							<section id="three" className="wrapper spotlight style3">
 								<div className="inner">
-									<a href="# " className="image"><img src="images/pic03.jpg" alt="" /></a>
+									<a href="Hobbies" className="image"><img src= {jeck} alt="UW Athletics Photo" /></a>
 									<div className="content">
 										<h2 className="major">Interests and Hobbies</h2>
 										<p>This is the cool part where I talk about how good I am at league of legends.</p>

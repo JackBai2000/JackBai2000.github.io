@@ -1,84 +1,79 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import FireLevel from "../images/firelevel.png"
+import PlayScreen from "../images/playscreen.png"
+import NextLevel from "../images/nextlevel.png"
+import Pengu from "../images/pengucharacter.png"
+import IceLevel from "../images/icelevel.png"
+import PenguPaper from "../images/pengupaper.png"
 
 class PastProjects extends React.Component{
+
+
     render(){
         return (
     <div>
-	<head>
+
 		<title>Past Projects</title>
-		<meta charset="utf-8" />
+		<meta charSet="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
+
 
 					<header id="header">
 						<nav>
-							<a href="#menu">Menu</a>
 						</nav>
 					</header>
 					<nav id="menu">
-						<div class="inner">
+						<div className="inner">
 							<h2>Menu</h2>
-							<ul class="links">
+							<ul className="links">
 								<li><a href="MainPage">Home</a></li>
 								<li><a href="PastProjects">Past Projects</a></li>
 								<li><a href="WorkExperience">Work Experience</a></li>
 								<li><a href="Hobbies">Hobbies</a></li>
 							</ul>
-							<a href="#" class="close">Close</a>
+							<a href="#" className="close">Close</a>
 						</div>
 					</nav>
+					
 					<section id="wrapper">
 						<header>
-							<div class="inner">
+							<div className="inner">
 								<h2>Past Projects</h2>
-								<p>Phasellus non pulvinar erat. Fusce tincidunt nisl eget ipsum.</p>
+								<p>This section is insert good text please help anybody</p>
 							</div>
 						</header>
-							<div class="wrapper">
-								<div class="inner">
+							<div className="wrapper">
+								<div className="inner">
+					
 
 
-									<section>
-										<h3 class="major">Lists</h3>
-										<div class="row">
-											<div class="col-6 col-12-medium">
-												<h4>Unordered</h4>
-												<ul>
-													<li>Dolor pulvinar etiam.</li>
-													<li>Sagittis adipiscing.</li>
-													<li>Felis enim feugiat.</li>
-												</ul>
-												<h4>Alternate</h4>
-												<ul class="alt">
-													<li>Dolor pulvinar etiam.</li>
-													<li>Sagittis adipiscing.</li>
-													<li>Felis enim feugiat.</li>
-												</ul>
-											</div>
-											<div class="col-6 col-12-medium">
-												<h4>Ordered</h4>
-												<ol>
-													<li>Dolor pulvinar etiam.</li>
-													<li>Etiam vel felis viverra.</li>
-													<li>Felis enim feugiat.</li>
-													<li>Dolor pulvinar etiam.</li>
-													<li>Etiam vel felis lorem.</li>
-													<li>Felis enim et feugiat.</li>
-												</ol>
-												<h4>Icons</h4>
-												<ul class="icons">
-													<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-													<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-													<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-													<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-												</ul>
-											</div>
-										</div>
-										
-									</section>
+					<section id = "wrapper alt spotlight style2">
+							<header>
+								<h3 className="major">Pengu In Trouble</h3>
+								<div className = "content">
+								<p>This project was created using Unity and C# scripts as an interactive and immersive method to experience game development.</p>
+								<a className = "image"> <img src = {IceLevel} height = {540} width = {1080}/></a>
+								</div>
+							</header>
+						</section>
+
+					<section id = "wrapper alt spotlight style 2">
+							<header>
+								<h3 className = "major">Pengu Paper</h3>
+								<div className = "content">
+								<p>This project was created as an introduction to some basic HTML, CSS, and JS elements.</p>
+								<a className = "image"> <img src = {PenguPaper} height = {540} width = {1080} /> </a>
+								</div>
+							</header>
+					</section>
+
+					<section id = "footer">
+						<header>
+							<h3 className = "major">Coming Soon!</h3>
+						</header>
+					</section>
 
             </div>
             </div>
