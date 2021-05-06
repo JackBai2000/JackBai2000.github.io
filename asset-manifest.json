@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/JackBai2000/jackbai2000.github.io/static/css/main.110f9a54.chunk.css",
+    "main.js": "/JackBai2000/jackbai2000.github.io/static/js/main.87344f3c.chunk.js",
+    "main.js.map": "/JackBai2000/jackbai2000.github.io/static/js/main.87344f3c.chunk.js.map",
+    "runtime-main.js": "/JackBai2000/jackbai2000.github.io/static/js/runtime-main.cf4711f3.js",
+    "runtime-main.js.map": "/JackBai2000/jackbai2000.github.io/static/js/runtime-main.cf4711f3.js.map",
+    "static/js/2.81f1799a.chunk.js": "/JackBai2000/jackbai2000.github.io/static/js/2.81f1799a.chunk.js",
+    "static/js/2.81f1799a.chunk.js.map": "/JackBai2000/jackbai2000.github.io/static/js/2.81f1799a.chunk.js.map",
+    "index.html": "/JackBai2000/jackbai2000.github.io/index.html",
+    "static/css/main.110f9a54.chunk.css.map": "/JackBai2000/jackbai2000.github.io/static/css/main.110f9a54.chunk.css.map",
+    "static/js/2.81f1799a.chunk.js.LICENSE.txt": "/JackBai2000/jackbai2000.github.io/static/js/2.81f1799a.chunk.js.LICENSE.txt",
+    "static/media/main.css": "/JackBai2000/jackbai2000.github.io/static/media/fa-solid-900.e4efd599.woff",
+    "static/media/firelevel.072f3f83.png": "/JackBai2000/jackbai2000.github.io/static/media/firelevel.072f3f83.png",
+    "static/media/gameplay.733d8652.png": "/JackBai2000/jackbai2000.github.io/static/media/gameplay.733d8652.png",
+    "static/media/icelevel.97717d53.png": "/JackBai2000/jackbai2000.github.io/static/media/icelevel.97717d53.png",
+    "static/media/isthisok.749ac5a1.jpg": "/JackBai2000/jackbai2000.github.io/static/media/isthisok.749ac5a1.jpg",
+    "static/media/kek.7f97723f.jpg": "/JackBai2000/jackbai2000.github.io/static/media/kek.7f97723f.jpg",
+    "static/media/nextlevel.68503a9e.png": "/JackBai2000/jackbai2000.github.io/static/media/nextlevel.68503a9e.png",
+    "static/media/pengucharacter.7406aa07.png": "/JackBai2000/jackbai2000.github.io/static/media/pengucharacter.7406aa07.png",
+    "static/media/pengupaper.e7e99dcd.png": "/JackBai2000/jackbai2000.github.io/static/media/pengupaper.e7e99dcd.png",
+    "static/media/playscreen.dfd77e08.png": "/JackBai2000/jackbai2000.github.io/static/media/playscreen.dfd77e08.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cf4711f3.js",
+    "static/js/2.81f1799a.chunk.js",
+    "static/css/main.110f9a54.chunk.css",
+    "static/js/main.87344f3c.chunk.js"
+  ]
+}
