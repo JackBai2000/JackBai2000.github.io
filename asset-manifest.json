@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/jacksite/static/css/main.934e427b.chunk.css",
-    "main.js": "/jacksite/static/js/main.87344f3c.chunk.js",
-    "main.js.map": "/jacksite/static/js/main.87344f3c.chunk.js.map",
+    "main.js": "/jacksite/static/js/main.43a461f1.chunk.js",
+    "main.js.map": "/jacksite/static/js/main.43a461f1.chunk.js.map",
     "runtime-main.js": "/jacksite/static/js/runtime-main.5cd3f149.js",
     "runtime-main.js.map": "/jacksite/static/js/runtime-main.5cd3f149.js.map",
     "static/js/2.81f1799a.chunk.js": "/jacksite/static/js/2.81f1799a.chunk.js",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.5cd3f149.js",
     "static/js/2.81f1799a.chunk.js",
     "static/css/main.934e427b.chunk.css",
-    "static/js/main.87344f3c.chunk.js"
+    "static/js/main.43a461f1.chunk.js"
   ]
 }
