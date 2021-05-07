@@ -6,36 +6,80 @@ class WorkExperience extends React.Component{
         return(
             <div>
 
-            <section id="one" className="wrapper spotlight style 2">
-                <div className="inner">
-                    <a href = "PastProjects" className="image"><img src= {ph} alt="is this still working" /></a>
-                    <div className="content">
-                        <h2 className="major">Past Projects</h2>
-                        <p>Personal Projects created using Unity and other technologies. Incldued are quick game demonstrations and tutorials!</p>
-                    </div>
+            <title>Past Projects</title>
+            <meta charSet="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+            <link rel="stylesheet" href="assets/css/main.css" />
+            <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    
+    
+                        <header id="header">
+                            <nav>
+                            </nav>
+                        </header>
+                        <nav id="menu">
+                            <div className="inner">
+                                <h2>Menu</h2>
+                                <ul className="links">
+                                    <li><a href="MainPage">Home</a></li>
+                                    <li><a href="PastProjects">Past Projects</a></li>
+                                    <li><a href="WorkExperience">Work Experience</a></li>
+                                    <li><a href="Hobbies">Hobbies</a></li>
+                                </ul>
+                                <a href="#" className="close">Close</a>
+                            </div>
+                        </nav>
+                        
+                        <section id="wrapper">
+                            <header>
+                                <div className="inner">
+                                    <h2>Past Projects</h2>
+                                    <p>This section is insert good text please help anybody</p>
+                                </div>
+                            </header>
+                                <div className="wrapper">
+                                    <div className="inner">
+                        
+    
+    
+                        <section id = "wrapper alt spotlight style2">
+                                <header>
+                                    <h3 className="major">Pengu In Trouble</h3>
+                                    <div className = "content">
+                                    <p>This project was created using Unity and C# scripts as an interactive and immersive method to experience game development.</p>
+                                    <a className = "image"> <img src = {ph} height = {540} width = {1080}/></a>
+                                    </div>
+                                </header>
+                            </section>
+    
+                        <section id = "wrapper alt spotlight style 2">
+                                <header>
+                                    <h3 className = "major">Pengu Paper</h3>
+                                    <div className = "content">
+                                    <p>This project was created as an introduction to some basic HTML, CSS, and JS elements.</p>
+                                    <a className = "image"> <img src = {ph} height = {540} width = {1080} /> </a>
+                                    </div>
+                                </header>
+                        </section>
+    
+                        <section id = "footer">
+                            <header>
+                                <h3 className = "major">Coming Soon!</h3>
+                            </header>
+                        </section>
+    
                 </div>
-            </section>
-
-
-            <section id="two" className="wrapper">
-                <div className="inner">
-                    <a href="WorkExperience" className="image"><img src={ph} alt="Photo of Work" /></a>
-                    <div className="content">
-                        <h2 className="major">Work Experience and Extra Curriculars</h2>
-                        <p>Here is sample text supposedly explaining my work experience and extra curricular involvement.</p>
-                    </div>
                 </div>
-            </section>
-
-
-            <section id="three" className="wrapper spotlight style 3">
-                <div className="inner">
-                    <a href="Hobbies" className="image"><img src= {ph} alt="UW Athletics Photo" /></a>
-                    <div className="content">
-                        <h2 className="major">Interests and Hobbies</h2>
-                        <p>This is the cool part where I talk about how good I am at league of legends.</p>>
-                    </div>
+    
+                <div>
+                <script src="assets/js/jquery.min.js"></script>
+                <script src="assets/js/jquery.scrollex.min.js"></script>
+                <script src="assets/js/browser.min.js"></script>
+                <script src="assets/js/breakpoints.min.js"></script>
+                <script src="assets/js/util.js"></script>
+                <script src="assets/js/main.js"></script>
                 </div>
+         
             </section>
             </div>
         );

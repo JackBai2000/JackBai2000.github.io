@@ -54,7 +54,7 @@ class PastProjects extends React.Component{
 								<h3 className="major">Pengu In Trouble</h3>
 								<div className = "content">
 								<p>This project was created using Unity and C# scripts as an interactive and immersive method to experience game development.</p>
-								<a className = "image"> <img src = {IceLevel} height = {540} width = {1080}/></a>
+								<a className = "image"> <img src = {IceLevel} style = { {marginLeft: "auto" },{marginRight: "auto"}, {height: "100%"}, {width: "100%"} }/></a>
 								</div>
 							</header>
 						</section>
@@ -64,7 +64,7 @@ class PastProjects extends React.Component{
 								<h3 className = "major">Pengu Paper</h3>
 								<div className = "content">
 								<p>This project was created as an introduction to some basic HTML, CSS, and JS elements.</p>
-								<a className = "image"> <img src = {PenguPaper} height = {540} width = {1080} /> </a>
+								<a className = "image"> <img src = {PenguPaper} style = { {marginLeft: "auto" },{marginRight: "auto"}, {height: "100%"}, {width: "100%"} }/> </a>
 								</div>
 							</header>
 					</section>
