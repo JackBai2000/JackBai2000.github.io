@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/jacksite/static/css/main.934e427b.chunk.css",
-    "main.js": "/jacksite/static/js/main.5fa73f80.chunk.js",
-    "main.js.map": "/jacksite/static/js/main.5fa73f80.chunk.js.map",
+    "main.js": "/jacksite/static/js/main.6e7ddd0b.chunk.js",
+    "main.js.map": "/jacksite/static/js/main.6e7ddd0b.chunk.js.map",
     "runtime-main.js": "/jacksite/static/js/runtime-main.5cd3f149.js",
     "runtime-main.js.map": "/jacksite/static/js/runtime-main.5cd3f149.js.map",
     "static/js/2.81f1799a.chunk.js": "/jacksite/static/js/2.81f1799a.chunk.js",
@@ -18,13 +18,13 @@
     "static/media/kek.7f97723f.jpg": "/jacksite/static/media/kek.7f97723f.jpg",
     "static/media/nextlevel.68503a9e.png": "/jacksite/static/media/nextlevel.68503a9e.png",
     "static/media/pengucharacter.7406aa07.png": "/jacksite/static/media/pengucharacter.7406aa07.png",
-    "static/media/pengupaper.e7e99dcd.png": "/jacksite/static/media/pengupaper.e7e99dcd.png",
+    "static/media/pengupaper.f9d66eec.png": "/jacksite/static/media/pengupaper.f9d66eec.png",
     "static/media/playscreen.dfd77e08.png": "/jacksite/static/media/playscreen.dfd77e08.png"
   },
   "entrypoints": [
     "static/js/runtime-main.5cd3f149.js",
     "static/js/2.81f1799a.chunk.js",
     "static/css/main.934e427b.chunk.css",
-    "static/js/main.5fa73f80.chunk.js"
+    "static/js/main.6e7ddd0b.chunk.js"
   ]
 }
