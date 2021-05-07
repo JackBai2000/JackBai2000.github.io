@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.29e18fe3.chunk.css",
-    "main.js": "/static/js/main.fb38b745.chunk.js",
-    "main.js.map": "/static/js/main.fb38b745.chunk.js.map",
+    "main.js": "/static/js/main.09c0b3ed.chunk.js",
+    "main.js.map": "/static/js/main.09c0b3ed.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a4ca427a.js",
     "runtime-main.js.map": "/static/js/runtime-main.a4ca427a.js.map",
-    "static/js/2.81f1799a.chunk.js": "/static/js/2.81f1799a.chunk.js",
-    "static/js/2.81f1799a.chunk.js.map": "/static/js/2.81f1799a.chunk.js.map",
+    "static/js/2.c3edc52b.chunk.js": "/static/js/2.c3edc52b.chunk.js",
+    "static/js/2.c3edc52b.chunk.js.map": "/static/js/2.c3edc52b.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.29e18fe3.chunk.css.map": "/static/css/main.29e18fe3.chunk.css.map",
-    "static/js/2.81f1799a.chunk.js.LICENSE.txt": "/static/js/2.81f1799a.chunk.js.LICENSE.txt",
+    "static/js/2.c3edc52b.chunk.js.LICENSE.txt": "/static/js/2.c3edc52b.chunk.js.LICENSE.txt",
     "static/media/main.css": "/static/media/fa-solid-900.e4efd599.woff",
     "static/media/firelevel.072f3f83.png": "/static/media/firelevel.072f3f83.png",
     "static/media/gameplay.733d8652.png": "/static/media/gameplay.733d8652.png",
@@ -23,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a4ca427a.js",
-    "static/js/2.81f1799a.chunk.js",
+    "static/js/2.c3edc52b.chunk.js",
     "static/css/main.29e18fe3.chunk.css",
-    "static/js/main.fb38b745.chunk.js"
+    "static/js/main.09c0b3ed.chunk.js"
   ]
 }
