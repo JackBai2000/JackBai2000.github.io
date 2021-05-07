@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.29e18fe3.chunk.css",
-    "main.js": "/static/js/main.09c0b3ed.chunk.js",
-    "main.js.map": "/static/js/main.09c0b3ed.chunk.js.map",
+    "main.js": "/static/js/main.5dfe1106.chunk.js",
+    "main.js.map": "/static/js/main.5dfe1106.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a4ca427a.js",
     "runtime-main.js.map": "/static/js/runtime-main.a4ca427a.js.map",
     "static/js/2.c3edc52b.chunk.js": "/static/js/2.c3edc52b.chunk.js",
@@ -11,20 +11,23 @@
     "static/css/main.29e18fe3.chunk.css.map": "/static/css/main.29e18fe3.chunk.css.map",
     "static/js/2.c3edc52b.chunk.js.LICENSE.txt": "/static/js/2.c3edc52b.chunk.js.LICENSE.txt",
     "static/media/main.css": "/static/media/fa-solid-900.e4efd599.woff",
+    "static/media/cs115.e208ad53.jpg": "/static/media/cs115.e208ad53.jpg",
     "static/media/firelevel.072f3f83.png": "/static/media/firelevel.072f3f83.png",
     "static/media/gameplay.733d8652.png": "/static/media/gameplay.733d8652.png",
     "static/media/icelevel.97717d53.png": "/static/media/icelevel.97717d53.png",
     "static/media/isthisok.749ac5a1.jpg": "/static/media/isthisok.749ac5a1.jpg",
     "static/media/kek.7f97723f.jpg": "/static/media/kek.7f97723f.jpg",
+    "static/media/kendo.9686c071.jpg": "/static/media/kendo.9686c071.jpg",
     "static/media/nextlevel.68503a9e.png": "/static/media/nextlevel.68503a9e.png",
     "static/media/pengucharacter.7406aa07.png": "/static/media/pengucharacter.7406aa07.png",
     "static/media/pengupaper.f9d66eec.png": "/static/media/pengupaper.f9d66eec.png",
-    "static/media/playscreen.dfd77e08.png": "/static/media/playscreen.dfd77e08.png"
+    "static/media/playscreen.dfd77e08.png": "/static/media/playscreen.dfd77e08.png",
+    "static/media/uwchampions.dcd41d68.png": "/static/media/uwchampions.dcd41d68.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a4ca427a.js",
     "static/js/2.c3edc52b.chunk.js",
     "static/css/main.29e18fe3.chunk.css",
-    "static/js/main.09c0b3ed.chunk.js"
+    "static/js/main.5dfe1106.chunk.js"
   ]
 }
