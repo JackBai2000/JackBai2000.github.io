@@ -5,9 +5,12 @@ import NextLevel from "../images/nextlevel.png"
 import Pengu from "../images/pengucharacter.png"
 import IceLevel from "../images/icelevel.png"
 import PenguPaper from "../images/pengupaper.png"
+import { Link } from 'react-router-dom';
 
 class PastProjects extends React.Component{
-
+	componentDidMount(){
+        window.scrollTo(0,0)
+    }
 
     render(){
         return (
@@ -28,10 +31,10 @@ class PastProjects extends React.Component{
 						<div className="inner">
 							<h2>Menu</h2>
 							<ul className="links">
-								<li><a href="MainPage">Home</a></li>
-								<li><a href="PastProjects">Past Projects</a></li>
-								<li><a href="WorkExperience">Work Experience</a></li>
-								<li><a href="Hobbies">Hobbies</a></li>
+								<li><Link to="MainPage">Home</Link></li>
+								<li><Link to="PastProjects">Past Projects</Link></li>
+								<li><Link to="WorkExperience">Work Experience</Link></li>
+								<li><Link to="Hobbies">Hobbies</Link></li>
 							</ul>
 							<a href="#" className="close">Close</a>
 						</div>
@@ -41,7 +44,7 @@ class PastProjects extends React.Component{
 						<header>
 							<div className="inner">
 								<h2>Past Projects</h2>
-								<p>This section is insert good text please help anybody</p>
+								<p>Listed below are some past projects that I have completed to increase my exposure to programming!</p>
 							</div>
 						</header>
 							<div className="wrapper">
@@ -53,7 +56,9 @@ class PastProjects extends React.Component{
 							<header>
 								<h3 className="major">Pengu In Trouble</h3>
 								<div className = "content">
-								<p>This project was created using Unity and C# scripts as an interactive and immersive method to experience game development.</p>
+								<p>Unity and C# scripts were used for the development of this game. This game allows the user to control a penguin named Pengu, to dodge 
+									obstacles in a relaxing and interactive experience.
+								</p>
 								<a className = "image"> <img src = {IceLevel} style = { {marginLeft: "auto" },{marginRight: "auto"}, {height: "100%"}, {width: "100%"} }/></a>
 								</div>
 							</header>
@@ -63,7 +68,7 @@ class PastProjects extends React.Component{
 							<header>
 								<h3 className = "major">Pengu Paper</h3>
 								<div className = "content">
-								<p>This project was created as an introduction to some basic HTML, CSS, and JS elements.</p>
+								<p>As a way of testing my introductory knowledge of HTML, CSS, and JS, I created a game tool to assist people playing Teamfight Tactits by Riot Games.</p>
 								<a className = "image"> <img src = {PenguPaper} style = { {marginLeft: "auto" },{marginRight: "auto"}, {height: "100%"}, {width: "100%"} }/> </a>
 								</div>
 							</header>
@@ -71,7 +76,7 @@ class PastProjects extends React.Component{
 
 					<section id = "footer">
 						<header>
-							<h3 className = "major">Coming Soon!</h3>
+							<h3 className = "major">Work in progress, future projects coming soon!</h3>
 						</header>
 					</section>
 

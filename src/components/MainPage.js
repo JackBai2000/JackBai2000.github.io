@@ -2,6 +2,8 @@ import React from 'react';
 import pengu from '../images/gameplay.png'
 import jeck from '../images/isthisok.jpg'
 import racket from '../images/kek.jpg'
+import {Link} from "react-router-dom";
+
 
 class MainPage extends React.Component{
     render(){
@@ -15,9 +17,9 @@ class MainPage extends React.Component{
 			<div id="page-wrapper">
 
 					{/* <header id="header" className="alt">
-						<h1><a href="MainPage">Solid State</a></h1>
+						<h1><Link to ="MainPage">Solid State</Link></h1>
 						<nav>
-							<a href="#menu">Menu</a>
+							<Link to ="#menu">Menu</Link>
 						</nav>
 					</header>
 
@@ -25,19 +27,19 @@ class MainPage extends React.Component{
 						<div className="inner">
 							<h2>Menu</h2>
 							<ul className="links">
-								<li><a href="MainPage">Home</a></li>
-								<li><a href="PastProjects">Past Projects</a></li>
-								<li><a href="WorkExperience">Work Experience</a></li>
-								<li><a href="Hobbies">Hobbies</a></li>
+								<li><Link to ="MainPage">Home</Link></li>
+								<li><Link to ="PastProjects">Past Projects</Link></li>
+								<li><Link to ="WorkExperience">Work Experience</Link></li>
+								<li><Link to ="Hobbies">Hobbies</Link></li>
 							</ul>
-							<a href="# " className="close">Close</a>
+							<Link to ="# " className="close">Close</Link>
 						</div>
 					</nav>
  */}
 					<section id="banner">
 						<div className="inner">
 							<h2>Jack Bai</h2>
-							<p>Hello! I am a 3rd Year Statistics student interested in teaching and development.</p>
+							<p>Hello! I am a 3rd Year Statistics student at the University of Waterloo interested in teaching and development.</p>
 						</div>
 					</section>
 
@@ -45,11 +47,11 @@ class MainPage extends React.Component{
 
 							<section id="one" className="wrapper spotlight style1">
 								<div className="inner">
-									<a href = "PastProjects" className="image"><img src= {pengu} alt="is this still working" /></a>
+									<Link to = "PastProjects" className="image"><img src= {pengu} alt="is this still working" /></Link>
 									<div className="content">
 										<h2 className="major">Past Projects</h2>
-										<p>Personal Projects created using Unity and other technologies. Incldued are quick game demonstrations and tutorials!</p>
-										<a href="PastProjects" className="special">Learn more</a>
+										<p> This section describes personal projects that have been developped through a variety of languages and technologies.</p>
+										<Link to ="PastProjects" className="special">Learn more</Link>
 									</div>
 								</div>
 							</section>
@@ -57,11 +59,11 @@ class MainPage extends React.Component{
 
 							<section id="two" className="wrapper alt spotlight style2">
 								<div className="inner">
-									<a href="WorkExperience" className="image"><img src={racket} alt="Photo of Work" /></a>
+									<Link to ="WorkExperience" className="image"><img src={racket} alt="Photo of Work" /></Link>
 									<div className="content">
 										<h2 className="major">Work Experience and Extra Curriculars</h2>
-										<p>Here is sample text supposedly explaining my work experience and extra curricular involvement.</p>
-										<a href="WorkExperience" className="special">Learn more</a>
+										<p>In this part I explain the technical and interpersonal skills acquired from previous work experiences and extra curricular involvement.</p>
+										<Link to ="WorkExperience" className="special">Learn more</Link>
 									</div>
 								</div>
 							</section>
@@ -69,42 +71,26 @@ class MainPage extends React.Component{
 
 							<section id="three" className="wrapper spotlight style3">
 								<div className="inner">
-									<a href="Hobbies" className="image"><img src= {jeck} alt="UW Athletics Photo" /></a>
+									<Link to ="Hobbies" className="image"><img src= {jeck} alt="UW Athletics Photo" /></Link>
 									<div className="content">
 										<h2 className="major">Interests and Hobbies</h2>
-										<p>This is the cool part where I talk about how good I am at league of legends.</p>
-										<a href="Hobbies" className="special">Learn more</a>
+										<p>Here you will be able to find out more about my personal hobbies and interests.</p>
+										<Link to ="Hobbies" className="special">Learn more</Link>
 									</div>
 								</div>
 							</section>
 					<section id="footer">
 						<div className="inner">
-							<h2 className="major">Get in touch</h2>
-							<form method="post" action="# ">
-								<div className="fields">
-									<div className="field">
-										<label htmlFor="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div className="field">
-										<label htmlFor="email">Email</label>
-										<input type="email" name="email" id="email" />
-									</div>
-									<div className="field">
-										<label htmlFor="message">Message</label>
-										<textarea name="message" id="message" rows="4"></textarea>
-									</div>
-								</div>
-								<ul className="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form>
+							
 							<ul className="contact">
+							<h1>Contact Information</h1>
+								<li className = "icon brands fa-linkedin-in"><a href = "https://linkedin.com/JackBai2000">Jack-Bai-Waterloo</a></li>
+								<li className = "icon brands fa-github"><a href="https://github.com/JackBai2000">JackBai2000</a></li>
 								<li className="icon solid fa-phone">(647) 808-0309</li>
-								<li className="icon solid fa-envelope"><a href="mailto:j52bai@uwaterloo.ca"> j52bai@uwaterloo.ca</a></li>
+								<li className="icon solid fa-envelope"><a href ="mailto:j52bai@uwaterloo.ca"> j52bai@uwaterloo.ca</a></li>
 							</ul>
 							<ul className="copyright">
-								<li>&copy; Untitled Inc. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>&copy; Jack Bai. All rights reserved.</li><li>Design: <a href ="http://html5up.net">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</section>

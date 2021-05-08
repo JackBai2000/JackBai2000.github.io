@@ -1,12 +1,18 @@
 import React from "react";
 import ph from "../images/pic01.jpg"
+import cs115 from "../images/cs115.jpg"
+import cs116 from "../images/cs116.jpg"
+import his from '../images/heritage2.png'
 
 class WorkExperience extends React.Component{
+    componentDidMount(){
+        window.scrollTo(0,0)
+    }
     render(){
         return(
             <div>
 
-            <title>Past Projects</title>
+            <title>Work Experience</title>
             <meta charSet="utf-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
             <link rel="stylesheet" href="assets/css/main.css" />
@@ -33,8 +39,8 @@ class WorkExperience extends React.Component{
                         <section id="wrapper">
                             <header>
                                 <div className="inner">
-                                    <h2>Past Projects</h2>
-                                    <p>This section is insert good text please help anybody</p>
+                                    <h2>Work Experience</h2>
+                                    <p>Below you will find more information on my previous co-op terms as well as personal work!</p>
                                 </div>
                             </header>
                                 <div className="wrapper">
@@ -44,27 +50,39 @@ class WorkExperience extends React.Component{
     
                         <section id = "wrapper alt spotlight style2">
                                 <header>
-                                    <h3 className="major">Pengu In Trouble</h3>
+                                    <h3 className="major">CS116 ISA</h3>
                                     <div className = "content">
-                                    <p>This project was created using Unity and C# scripts as an interactive and immersive method to experience game development.</p>
-                                    <a className = "image"> <img src = {ph} height = {540} width = {1080}/></a>
+                                    <p>Being an Instructional Support Assistant in the online environment helped me practice working in a team in remote environment. This was extremely important
+                                        as we had many tasks to complete and required constant communication to ensure everything was complete.
+                                    </p>
+                                    <a className = "image"> <img src = {cs116} style = { {marginLeft: "auto" },{marginRight: "auto"}, {height: "100%"}, {width: "100%"} }/></a>
                                     </div>
                                 </header>
                             </section>
     
                         <section id = "wrapper alt spotlight style 2">
                                 <header>
-                                    <h3 className = "major">Pengu Paper</h3>
+                                    <h3 className = "major">Student Teacher</h3>
                                     <div className = "content">
-                                    <p>This project was created as an introduction to some basic HTML, CSS, and JS elements.</p>
-                                    <a className = "image"> <img src = {ph} height = {540} width = {1080} /> </a>
+                                    <p>This position allowed me to build personnalized lessons to support the students' learning and practice my teaching abilities.</p>
+                                    <a className = "image"> <img src = {his} style = { {marginLeft: "auto" },{marginRight: "auto"}, {height: "100%"}, {width: "100%"} } /> </a>
+                                    </div>
+                                </header>
+                        </section>
+
+                        <section id = "wrapper alt spotlight style 2">
+                                <header>
+                                    <h3 className = "major">CS115 ISA</h3>
+                                    <div className = "content">
+                                    <p>My experiences as a CS115 ISA allowed me to build critical problem solving through guiding students to unique solutions to assignment problems.</p>
+                                    <a className = "image"> <img src = {cs115} style = { {marginLeft: "auto" },{marginRight: "auto"}, {height: "100%"}, {width: "100%"} } /> </a>
                                     </div>
                                 </header>
                         </section>
     
                         <section id = "footer">
                             <header>
-                                <h3 className = "major">Coming Soon!</h3>
+                                <h3 className = "major"></h3>
                             </header>
                         </section>
     
