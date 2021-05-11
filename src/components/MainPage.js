@@ -3,6 +3,7 @@ import pengu from '../images/gameplay.png'
 import jeck from '../images/isthisok.jpg'
 import racket from '../images/kek.jpg'
 import {Link} from "react-router-dom";
+import resume from '../images/resume2.pdf'
 
 
 class MainPage extends React.Component{
@@ -40,6 +41,7 @@ class MainPage extends React.Component{
 						<div className="inner">
 							<h2>Jack Bai</h2>
 							<p>Hello! I am a 3rd Year Statistics student at the University of Waterloo interested in teaching and development.</p>
+							<a  href = {resume} className = "button">Resume</a>
 						</div>
 					</section>
 
@@ -84,7 +86,7 @@ class MainPage extends React.Component{
 							
 							<ul className="contact">
 							<h1>Contact Information</h1>
-								<li className = "icon brands fa-linkedin-in"><a href = "https://linkedin.com/JackBai2000">Jack-Bai-Waterloo</a></li>
+								<li className = "icon brands fa-linkedin-in"><a href = "https://linkedin.com/in/jack-bai-waterloo">Jack-Bai-Waterloo</a></li>
 								<li className = "icon brands fa-github"><a href="https://github.com/JackBai2000">JackBai2000</a></li>
 								<li className="icon solid fa-phone">(647) 808-0309</li>
 								<li className="icon solid fa-envelope"><a href ="mailto:j52bai@uwaterloo.ca"> j52bai@uwaterloo.ca</a></li>
