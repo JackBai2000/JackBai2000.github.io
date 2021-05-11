@@ -7,6 +7,8 @@ import his from '../images/heritage2.png'
 class WorkExperience extends React.Component{
     componentDidMount(){
         window.scrollTo(0,0)
+        document.title = "Work Experience"
+
     }
     render(){
         return(

@@ -7,6 +7,10 @@ import resume from '../images/resume2.pdf'
 
 
 class MainPage extends React.Component{
+	componentDidMount(){
+		document.title = "Jack Bai"
+	}
+
     render(){
         return(
     <div>

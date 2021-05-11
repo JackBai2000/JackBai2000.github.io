@@ -10,6 +10,7 @@ import { Link } from 'react-router-dom';
 class PastProjects extends React.Component{
 	componentDidMount(){
         window.scrollTo(0,0)
+		document.title = "Past Projects"
     }
 
     render(){

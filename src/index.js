@@ -9,6 +9,12 @@ import './assets/css/noscript.css';
 import './assets/css/main.css';
 
 class App extends React.Component{
+
+    componentDidMount(){
+        document.title = "Jack Bai";
+    }
+
+
     render(){
         return(
             <div>
