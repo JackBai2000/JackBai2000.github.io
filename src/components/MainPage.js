@@ -44,7 +44,7 @@ class MainPage extends React.Component{
 					<section id="banner">
 						<div className="inner">
 							<h2>Jack Bai</h2>
-							<p>Hello! I am a 3rd Year Statistics student at the University of Waterloo interested in teaching and development.</p>
+							<p>Hello! I am a 4th Year Statistics student at the University of Waterloo interested in teaching and development.</p>
 							<a  href = {resume} className = "button">Resume</a>
 						</div>
 					</section>

@@ -1,5 +1,6 @@
 import React from "react";
 import ph from "../images/pic01.jpg"
+import dematic2 from "../images/dematic2.jpg"
 import cs115 from "../images/cs115.jpg"
 import cs116 from "../images/cs116.jpg"
 import his from '../images/heritage2.png'
@@ -49,7 +50,18 @@ class WorkExperience extends React.Component{
                                     <div className="inner">
                         
     
-    
+                        <section id = "wrapper alt spotlight style2">
+                                <header>
+                                    <h3 className="major">Dematic Virtual Facility Software Engineer</h3>
+                                    <div className = "content">
+                                    <p>Working with Dematic provided me with plenty of opportunities to engage with new technlogoies. Some of which included Unity's Data Oriented Tech Stack (DOTS),
+                                        Amazon Web Services (EC2), Postman API, and Unity's Testing Framework. 
+                                    
+                                    </p>
+                                    <a className = "image"> <img src = {dematic2} style = { {marginLeft: "auto" },{marginRight: "auto"}, {height: "100%"}, {width: "200%"} }/></a>
+                                    </div>
+                                </header>
+                        </section>
                         <section id = "wrapper alt spotlight style2">
                                 <header>
                                     <h3 className="major">CS116 ISA</h3>
