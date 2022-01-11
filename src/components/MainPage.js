@@ -3,7 +3,7 @@ import pengu from '../images/gameplay.png'
 import jeck from '../images/isthisok.jpg'
 import racket from '../images/kek.jpg'
 import {Link} from "react-router-dom";
-import resume from '../images/resume2.pdf'
+import resume from '../images/W2022Resume.pdf'
 
 
 class MainPage extends React.Component{
