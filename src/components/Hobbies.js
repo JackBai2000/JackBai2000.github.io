@@ -2,7 +2,8 @@ import React from "react";
 import logo from "../images/pengucharacter.png"
 import csl from "../images/uwchampions.png"
 import kendo from "../images/kendo.jpg"
-
+import bench from "../images/workout.jpg"
+import volleyball from "../images/Volleyball.png"
 class Hobbies extends React.Component{
     componentDidMount(){
         window.scrollTo(0,0)
@@ -47,7 +48,33 @@ class Hobbies extends React.Component{
                             </header>
                                 <div className="wrapper">
                                     <div className="inner">
-                        
+
+                            <section id = "wrapper alt spotlight style2">
+                                <header>
+                                    <h3 className="major">Volleyball</h3>
+                                    <div className = "content">
+                                    <p> A recent and passioniate addition to my list of hobbies is Volleyball. Volleyball is a very team integrated sport that involves the constant cooperation and coordination of players in order
+                                        to maximize the offensive and defensive abilities of the team. Being new to the sport, I spent a lot of time practicing the fundementals of the game and participated in the UW SERVE beginners
+                                        tournament as well as the weekly intramural matches. This has been an interactive and intensive hobby that encouraged cardiovascular activity, also a ton of fun (clearly).
+
+                                    </p>
+                                    <a className = "image"> <img src = {volleyball} style = { {marginLeft: "auto" },{marginRight: "auto"}, {height: "100%"}, {width: "100%"} }/></a>
+                                    </div>
+                                </header>
+                            </section>
+    
+                            <section id = "wrapper alt spotlight style2">
+                                <header>
+                                    <h3 className="major">Home Fitness</h3>
+                                    <div className = "content">
+                                    <p>I have continued to practice in personnal fitness and it has been an irreplacable addition to my hobbies. Working out is a great way for me to keep myself healthy physically and mentally. I often feel that spending a bit of time daily to workout increases my 
+                                         productivity as well as releives stress and overall boosts my mood. I am very fortunate to have access to gym equipment at home and will continue to pursue my personal strength goals. During Study Terms, I will often make time in the week to visit the 
+                                         University Physical Activites Complex to continue to train myself.
+                                    </p>
+                                    <a className = "image"> <img src = {bench} style = { {marginLeft: "auto" },{marginRight: "auto"}, {height: "100%"}, {width: "100%"} }/></a>
+                                    </div>
+                                </header>
+                            </section>
     
     
                         <section id = "wrapper alt spotlight style2">

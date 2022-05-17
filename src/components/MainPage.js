@@ -3,7 +3,7 @@ import pengu from '../images/gameplay.png'
 import jeck from '../images/isthisok.jpg'
 import racket from '../images/kek.jpg'
 import {Link} from "react-router-dom";
-import resume from '../images/W2022Resume.pdf'
+import resume from '../images/F2022Resume2.pdf'
 
 
 class MainPage extends React.Component{
@@ -44,7 +44,7 @@ class MainPage extends React.Component{
 					<section id="banner">
 						<div className="inner">
 							<h2>Jack Bai</h2>
-							<p>Hello! I am a 4th Year Statistics student at the University of Waterloo interested in teaching and development.</p>
+							<p>Hello! I am a 4th Year Statistics student at the University of Waterloo interested in Statistics and development.</p>
 							<a  href = {resume} className = "button">Resume</a>
 						</div>
 					</section>

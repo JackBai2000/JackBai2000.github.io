@@ -69,7 +69,7 @@ class PastProjects extends React.Component{
 							<header>
 								<h3 className = "major">Pengu Paper</h3>
 								<div className = "content">
-								<p>As a way of testing my introductory knowledge of HTML, CSS, and JS, I created a game tool to assist people playing Teamfight Tactits by Riot Games.</p>
+								<p>As a way of testing my introductory knowledge of HTML, CSS, and JS, I created a game tool to assist people playing Teamfight Tactics by Riot Games.</p>
 								<a className = "image"> <img src = {PenguPaper} style = { {marginLeft: "auto" },{marginRight: "auto"}, {height: "100%"}, {width: "100%"} }/> </a>
 								</div>
 							</header>
