@@ -6,7 +6,8 @@ import Pengu from "../images/pengucharacter.png"
 import IceLevel from "../images/icelevel.png"
 import PenguPaper from "../images/pengupaper.png"
 import { Link } from 'react-router-dom';
-
+import RiotReport from "../images/Riot-Stat-Project.pdf"
+import RiotImg from "../images/Difference in Pick Rate vs Win Rate (Clash - SoloQ).png"
 class PastProjects extends React.Component{
 	componentDidMount(){
         window.scrollTo(0,0)
@@ -45,13 +46,27 @@ class PastProjects extends React.Component{
 						<header>
 							<div className="inner">
 								<h2>Past Projects</h2>
+								<div className = "content">
 								<p>Listed below are some past projects that I have completed to increase my exposure to programming!</p>
+								</div>
 							</div>
 						</header>
 							<div className="wrapper">
 								<div className="inner">
-					
 
+					<section id = "wrapper alt spotlight style2">
+							<header>
+								<h3 className="major">Champions in Clash vs Solo Queue</h3>
+								<div className = "content">
+								<p> Statistical analysis conducted to illustrate and explore complex real game data of over 30,000 online matches. Thorough exploration
+									of multiple dimensions of data to reach plausible conclusions with contextualized inferencing and hypotheses. Written to appeal to audiences
+									with some familiarity with League of Legends. Data collection and visualization was conducted through Python and final report was created using 
+									R markdown. Please click the image below to take a look at the report!
+								</p>
+								<a href = {RiotReport} className = "image"> <img src = {RiotImg} style = { {marginLeft: "auto" },{marginRight: "auto"}, {height: "100%"}, {width: "100%"} }/></a>
+								</div>
+							</header>
+						</section>
 
 					<section id = "wrapper alt spotlight style2">
 							<header>

@@ -3,9 +3,9 @@ import pengu from '../images/gameplay.png'
 import jeck from '../images/isthisok.jpg'
 import racket from '../images/kek.jpg'
 import {Link} from "react-router-dom";
-import resume from '../images/F2022Resume.pdf'
-
-
+import resume from '../images/DevResume.pdf'
+import riot from "../images/Solo Queue vs Clash Games Picked.png"
+import OpenTextCup from "../images/opentextcup.jpg"
 class MainPage extends React.Component{
 	componentDidMount(){
 		document.title = "Jack Bai"
@@ -44,8 +44,8 @@ class MainPage extends React.Component{
 					<section id="banner">
 						<div className="inner">
 							<h2>Jack Bai</h2>
-							<p>Hello! I am a 4th Year Statistics student at the University of Waterloo interested in Statistics and development.</p>
-							<a  href = {resume} className = "button">Resume</a>
+							<p>Hello! I am a University of Waterloo Honours Statistics Graduate interested in data and software development!</p>
+							<a href = {resume} className = "button">Resume</a>
 						</div>
 					</section>
 
@@ -53,11 +53,15 @@ class MainPage extends React.Component{
 
 							<section id="one" className="wrapper spotlight style1">
 								<div className="inner">
-									<Link to = "PastProjects" className="image"><img src= {pengu} alt="is this still working" /></Link>
+									<Link to = "WorkExperience" className="image"><img src= {OpenTextCup} alt="is this still working" /></Link>
 									<div className="content">
-										<h2 className="major">Past Projects</h2>
-										<p> This section describes personal projects that have been developped through a variety of languages and technologies.</p>
-										<Link to ="PastProjects" className="special">Learn more</Link>
+										<h2 className="major">Work Experience and Extra Curriculars</h2>
+										<p>This section describes my previous work experiences and extra curricular involvement.
+											My most recent work experience was with OpenText, a large company involved in providing software
+											and applications using cloud development. I am very grateful for having the opportunity to work with
+											them! 
+										</p>
+										<Link to ="WorkExperience" className="special">Learn more</Link>
 									</div>
 								</div>
 							</section>
@@ -65,11 +69,15 @@ class MainPage extends React.Component{
 
 							<section id="two" className="wrapper alt spotlight style2">
 								<div className="inner">
-									<Link to ="WorkExperience" className="image"><img src={racket} alt="Photo of Work" /></Link>
+									<Link to ="PastProjects" className="image"><img src={riot} alt="Photo of Work" /></Link>
 									<div className="content">
-										<h2 className="major">Work Experience and Extra Curriculars</h2>
-										<p>In this part I explain the technical and interpersonal skills acquired from previous work experiences and extra curricular involvement.</p>
-										<Link to ="WorkExperience" className="special">Learn more</Link>
+										<h2 className="major">Past Projects</h2>
+										<p>This section describes personal projects that have been developed through a variety of languages and technologies.
+											My most recent project is a statistical report that deals with taking an enormous amount of match data from League
+											of Legends and making hypotheses based on the complex data and interactions within each game. Give it a read if 
+											you have some time to spare!
+										</p>
+										<Link to ="PastProjects" className="special">Learn more</Link>
 									</div>
 								</div>
 							</section>
@@ -80,7 +88,11 @@ class MainPage extends React.Component{
 									<Link to ="Hobbies" className="image"><img src= {jeck} alt="UW Athletics Photo" /></Link>
 									<div className="content">
 										<h2 className="major">Interests and Hobbies</h2>
-										<p>Here you will be able to find out more about my personal hobbies and interests.</p>
+										<p>This section describes more about what I do with my free time! Recently I 
+											have been finding a passion for volleyball because of the opportunities
+											for social interaction and teamwork. It is also extremely satisfying to
+											get off a great jump and a good swing!
+										</p>
 										<Link to ="Hobbies" className="special">Learn more</Link>
 									</div>
 								</div>

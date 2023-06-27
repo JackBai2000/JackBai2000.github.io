@@ -4,6 +4,8 @@ import dematic2 from "../images/dematic2.jpg"
 import cs115 from "../images/cs115.jpg"
 import cs116 from "../images/cs116.jpg"
 import his from '../images/heritage2.png'
+import opentext from '../images/opentext.jpg'
+import rideco from '../images/rideco.jpg'
 
 class WorkExperience extends React.Component{
     componentDidMount(){
@@ -19,9 +21,7 @@ class WorkExperience extends React.Component{
             <meta charSet="utf-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
             <link rel="stylesheet" href="assets/css/main.css" />
-            <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-    
-    
+            <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>    
                         <header id="header">
                             <nav>
                             </nav>
@@ -38,7 +38,7 @@ class WorkExperience extends React.Component{
                                 <a href="#" className="close">Close</a>
                             </div>
                         </nav>
-                        
+
                         <section id="wrapper">
                             <header>
                                 <div className="inner">
@@ -49,7 +49,32 @@ class WorkExperience extends React.Component{
                                 <div className="wrapper">
                                     <div className="inner">
                         
-    
+                                    <section id = "wrapper alt spotlight style2">
+                                <header>
+                                    <h3 className="major">Open Text Corporation Software Developer</h3>
+                                    <div className = "content">
+                                    <p> Working as a developer for Open Text gave me exposure to software development in a more structured corporation. Work was often 
+                                        structured and communication was crucial in ensuring proper solutions and meeting design specifications. During this co-op, I 
+                                        had completed more backend related work and built a better understanding of the importance of database and backend communication.
+                                        Specifically, using Java, Spring, and Postman API I was able to investigate and revise old endpoints and introduce newer data 
+                                        restrictions to fulfill requests from clients.
+                                    </p>
+                                    <a className = "image"> <img src = {opentext} style = { {marginLeft: "auto" },{marginRight: "auto"}, {height: "100%"}, {width: "100%"} }/></a>
+                                    </div>
+                                </header>
+                            </section>
+                            <section id = "wrapper alt spotlight style2">
+                                <header>
+                                    <h3 className="major">RideCo Full Stack Developer</h3>
+                                    <div className = "content">
+                                    <p>Working at RideCo was an amazing experience as the work environment was extremely supportive and team oriented. I was able to work with Python and 
+                                        communicate with project managers to produce quality work. Having Jira and scheduled standup as while as weekly meetings helped growth and ensured
+                                        productivity.
+                                    </p>
+                                    <a className = "image"> <img src = {rideco} style = { {marginLeft: "auto" },{marginRight: "auto"}, {height: "150%"}, {width: "150%"} }/></a>
+                                    </div>
+                                </header>
+                            </section>
                         <section id = "wrapper alt spotlight style2">
                                 <header>
                                     <h3 className="major">Dematic Virtual Facility Software Engineer</h3>
