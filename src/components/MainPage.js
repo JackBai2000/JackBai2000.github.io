@@ -3,7 +3,7 @@ import pengu from '../images/gameplay.png'
 import jeck from '../images/isthisok.jpg'
 import racket from '../images/kek.jpg'
 import {Link} from "react-router-dom";
-import resume from '../images/DevResume.pdf'
+import resume from '../images/Resume.pdf'
 import riot from "../images/Solo Queue vs Clash Games Picked.png"
 import OpenTextCup from "../images/opentextcup.jpg"
 class MainPage extends React.Component{
@@ -58,8 +58,8 @@ class MainPage extends React.Component{
 										<h2 className="major">Work Experience and Extra Curriculars</h2>
 										<p>This section describes my previous work experiences and extra curricular involvement.
 											My most recent work experience was with OpenText, a large company involved in providing software
-											and applications using cloud development. I am very grateful for having the opportunity to work with
-											them! 
+											and applications using cloud development. 
+											I am very grateful for having the opportunity to work with them!
 										</p>
 										<Link to ="WorkExperience" className="special">Learn more</Link>
 									</div>

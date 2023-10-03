@@ -4,6 +4,7 @@ import csl from "../images/uwchampions.png"
 import kendo from "../images/kendo.jpg"
 import bench from "../images/workout.jpg"
 import volleyball from "../images/Volleyball.png"
+import volleyball2 from "../images/volleyball2.jpg"
 class Hobbies extends React.Component{
     componentDidMount(){
         window.scrollTo(0,0)
@@ -58,7 +59,7 @@ class Hobbies extends React.Component{
                                         tournament as well as the weekly intramural matches. This has been an interactive and intensive hobby that encouraged cardiovascular activity, also a ton of fun (clearly).
 
                                     </p>
-                                    <a className = "image"> <img src = {volleyball} style = { {marginLeft: "auto" },{marginRight: "auto"}, {height: "100%"}, {width: "100%"} }/></a>
+                                    <a className = "image"> <img src = {volleyball} style = { {marginLeft: "auto" ,marginRight: "auto", height: "100%", width: "100%"} }/></a>
                                     </div>
                                 </header>
                             </section>
@@ -71,7 +72,7 @@ class Hobbies extends React.Component{
                                          productivity as well as releives stress and overall boosts my mood. I am very fortunate to have access to gym equipment at home and will continue to pursue my personal strength goals. During Study Terms, I will often make time in the week to visit the 
                                          University Physical Activites Complex to continue to train myself.
                                     </p>
-                                    <a className = "image"> <img src = {bench} style = { {marginLeft: "auto" },{marginRight: "auto"}, {height: "100%"}, {width: "100%"} }/></a>
+                                    <a className = "image"> <img src = {bench} style = { {marginLeft: "auto" ,marginRight: "auto", height: "100%", width: "100%"} }/></a>
                                     </div>
                                 </header>
                             </section>
@@ -85,7 +86,7 @@ class Hobbies extends React.Component{
                                         of hours in planning, arranging practice matches, researching from other professional teams, we became an unstoppable team. At the end of the season,
                                         we were able to win the grand finals securing $5000 USD to our team and earning the title of CSL Champions.
                                     </p>
-                                    <a className = "image"> <img src = {csl} style = { {marginLeft: "auto" },{marginRight: "auto"}, {height: "100%"}, {width: "100%"} }/></a>
+                                    <a className = "image"> <img src = {csl} style = { {marginLeft: "auto" ,marginRight: "auto", height: "100%", width: "100%"} }/></a>
                                     </div>
                                 </header>
                             </section>
@@ -97,7 +98,7 @@ class Hobbies extends React.Component{
                                     <p>Spending a year with the kendo club was an amazing experience by providing opportunities to exercise and practice formalities. Kendo continues many
                                         traditions and cultural practices that were enrichening to perform. Beyond that, the social experiences and gatherings were fun and inclusive.
                                     </p>
-                                    <a className = "image"> <img src = {kendo} style = { {marginLeft: "auto" },{marginRight: "auto"}, {height: "100%"}, {width: "100%"} } /> </a>
+                                    <a className = "image"> <img src = {kendo} style = { {marginLeft: "auto" ,marginRight: "auto", height: "100%", width: "100%"} } /> </a>
                                     </div>
                                 </header>
                         </section>
