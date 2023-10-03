@@ -69,8 +69,7 @@ class Hobbies extends React.Component{
                                     <h3 className="major">Home Fitness</h3>
                                     <div className = "content">
                                     <p>I have continued to practice in personnal fitness and it has been an irreplacable addition to my hobbies. Working out is a great way for me to keep myself healthy physically and mentally. I often feel that spending a bit of time daily to workout increases my 
-                                         productivity as well as releives stress and overall boosts my mood. I am very fortunate to have access to gym equipment at home and will continue to pursue my personal strength goals. During Study Terms, I will often make time in the week to visit the 
-                                         University Physical Activites Complex to continue to train myself.
+                                         productivity as well as releives stress and overall boosts my mood. I am very fortunate to have access to gym equipment at home and will continue to pursue my personal strength goals.
                                     </p>
                                     <a className = "image"> <img src = {bench} style = { {marginLeft: "auto" ,marginRight: "auto", height: "100%", width: "100%"} }/></a>
                                     </div>
