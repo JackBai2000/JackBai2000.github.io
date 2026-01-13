@@ -3,9 +3,10 @@ import pengu from '../images/gameplay.png'
 import jeck from '../images/isthisok.jpg'
 import racket from '../images/kek.jpg'
 import {Link} from "react-router-dom";
-import resume from '../images/Resume.pdf'
+import resume from '../images/JackBaiResume.pdf'
 import riot from "../images/Solo Queue vs Clash Games Picked.png"
 import OpenTextCup from "../images/opentextcup.jpg"
+import mainpfp from "../images/mainpfp.jpg"
 class MainPage extends React.Component{
 	componentDidMount(){
 		document.title = "Jack Bai"
@@ -42,18 +43,26 @@ class MainPage extends React.Component{
 					</nav>
  */}
 					<section id="banner">
-						<div className="inner">
+						<div className="inner banner-content">
+							<img
+							className="banner-image"
+							src={mainpfp}
+							alt="Portrait of Jack Bai"
+							/>
+							<div className="banner-text">
 							<h2>Jack Bai</h2>
-							<p>Hello! I am a University of Waterloo Honours Statistics Graduate interested in data and software development!</p>
-							<a href = {resume} className = "button">Resume</a>
+							<p>Hello! I am a Software Developer at IBM who enjoys staying active and creative!</p>
+							<a href={resume} className="button">Resume</a>
+							</div>
 						</div>
 					</section>
+
 
 					<section id="wrapper">
 
 							<section id="one" className="wrapper spotlight style1">
 								<div className="inner">
-									<Link to = "WorkExperience" className="image"><img src= {OpenTextCup} alt="is this still working" /></Link>
+									<Link to = "WorkExperience" className="image"><img src= {OpenTextCup}/></Link>
 									<div className="content">
 										<h2 className="major">Work Experience and Extra Curriculars</h2>
 										<p>This section describes my previous work experiences and extra curricular involvement.

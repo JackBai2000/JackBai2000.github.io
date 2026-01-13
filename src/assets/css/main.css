@@ -101,9 +101,12 @@ input, select, textarea {
 	body {
 		background-color: #2e3141;
 		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-		background-size: auto, cover;
-		background-attachment: fixed, fixed;
-		background-position: center, center;
+		background-size: auto,
+ cover;
+		background-attachment: fixed,
+ fixed;
+		background-position: center,
+ center;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3373,6 +3376,50 @@ input, select, textarea {
 		}
 
 /* Banner */
+/* === Banner image side layout === */
+
+#banner .banner-content {
+  display: flex;
+  align-items: center;
+  gap: 3em;
+}
+
+#banner .banner-image {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.35);
+
+  flex-shrink: 0;
+}
+
+#banner .banner-text {
+  max-width: 32em;
+}
+
+/* Mobile layout */
+@media screen and (max-width: 736px) {
+  #banner .banner-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #banner .banner-image {
+    width: 130px;
+    height: 130px;
+  }
+}
+
+/* Preload animation consistency */
+body.is-preload #banner .banner-image {
+  opacity: 0;
+  transform: translateY(0.5em);
+}
+
+
 
 	#banner {
 		padding: 10em 0 4.75em 0 ;
@@ -3457,6 +3504,7 @@ input, select, textarea {
 			line-height: 2;
 			text-transform: uppercase;
 		}
+		
 
 		@media screen and (max-width: 1280px) {
 
@@ -3464,8 +3512,10 @@ input, select, textarea {
 				padding: 7em 0 8.25em 0 ;
 				background-color: #2e3141;
 				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-				background-size: auto, cover;
-				background-position: center, center;
+				background-size: auto,
+ cover;
+				background-position: center,
+ center;
 				margin-bottom: -6.5em;
 			}
 
@@ -3574,8 +3624,10 @@ input, select, textarea {
 			padding: 9em 0 6.25em 0 ;
 			background-color: #2e3141;
 			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-			background-size: auto, cover;
-			background-position: center, 0% 30%;
+			background-size: auto,
+ cover;
+			background-position: center,
+ 0% 30%;
 			margin-bottom: -6.5em;
 		}
 
@@ -3585,8 +3637,10 @@ input, select, textarea {
 
 		#wrapper > header {
 			padding: 11em 3em 7.375em 3em ;
-			background-size: auto, cover;
-			background-position: center, 0% 0%;
+			background-size: auto,
+ cover;
+			background-position: center,
+ 0% 0%;
 			margin-bottom: -4.75em;
 		}
 
@@ -3600,7 +3654,8 @@ input, select, textarea {
 
 		#wrapper > header {
 			padding: 6.5em 2em 3em 2em ;
-			background-size: auto, 125%;
+			background-size: auto,
+ 125%;
 			margin-bottom: -2.5em;
 		}
 
@@ -4062,8 +4117,10 @@ input, select, textarea {
 		#footer {
 			background-color: #2e3141;
 			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-			background-size: auto, cover;
-			background-position: center, center;
+			background-size: auto,
+ cover;
+			background-position: center,
+ center;
 			margin-top: -6.5em;
 			padding-top: 6.5em;
 		}
@@ -4142,3 +4199,45 @@ input, select, textarea {
 		}
 
 	}
+
+
+/* === Shared circular portrait styling === */
+
+#banner .banner-image,
+.wrapper.spotlight .image img {
+  width: 300px;
+  height: 300px;
+
+  border-radius: 50%;
+  object-fit: cover;
+
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.35);
+}
+
+/* Prevent spotlight layout from stretching */
+.wrapper.spotlight .image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper.spotlight .image img {
+  flex-shrink: 0;
+}
+
+/* Mobile consistency */
+@media screen and (max-width: 736px) {
+  #banner .banner-image,
+  .wrapper.spotlight .image img {
+    width: 130px;
+    height: 130px;
+  }
+}
+
+/* Preload animation consistency */
+body.is-preload #banner .banner-image,
+body.is-preload .wrapper.spotlight .image img {
+  opacity: 0;
+  transform: translateY(0.5em);
+}
