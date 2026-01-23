@@ -7,6 +7,7 @@ import resume from '../images/JackBaiResume.pdf'
 import riot from "../images/Solo Queue vs Clash Games Picked.png"
 import OpenTextCup from "../images/opentextcup.jpg"
 import mainpfp from "../images/mainpfp.jpg"
+import ibm from "../images/IBM.jpg"
 class MainPage extends React.Component{
 	componentDidMount(){
 		document.title = "Jack Bai"
@@ -62,13 +63,12 @@ class MainPage extends React.Component{
 
 							<section id="one" className="wrapper spotlight style1">
 								<div className="inner">
-									<Link to = "WorkExperience" className="image"><img src= {OpenTextCup}/></Link>
+									<Link to = "WorkExperience" className="image"><img src= {ibm}/></Link>
 									<div className="content">
 										<h2 className="major">Work Experience and Extra Curriculars</h2>
 										<p>This section describes my previous work experiences and extra curricular involvement.
-											My most recent work experience was with OpenText, a large company involved in providing software
-											and applications using cloud development. 
-											I am very grateful for having the opportunity to work with them!
+											My current role is a Software Developer at IBM where I work with a wide variety of technologies
+											to deliver high quality software solutions to clients.
 										</p>
 										<Link to ="WorkExperience" className="special">Learn more</Link>
 									</div>

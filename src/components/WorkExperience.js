@@ -6,6 +6,7 @@ import cs116 from "../images/cs116.jpg"
 import his from '../images/heritage2.png'
 import opentext from '../images/opentext.jpg'
 import rideco from '../images/rideco.jpg'
+import ibmbanner from "../images/ibmbanner.png"
 
 class WorkExperience extends React.Component{
     componentDidMount(){
@@ -43,12 +44,21 @@ class WorkExperience extends React.Component{
                             <header>
                                 <div className="inner">
                                     <h2>Work Experience</h2>
-                                    <p>Below you will find more information on my previous co-op terms as well as personal work!</p>
+                                    <p>Below you will find more information on my work experience and previous co-op!</p>
                                 </div>
                             </header>
                                 <div className="wrapper">
                                     <div className="inner">
-                        
+                                                        <section id = "wrapper alt spotlight style2">
+                                <header>
+                                    <h3 className="major">International Business Machines</h3>
+                                    <div className = "content">
+                                    <p> At IBM, I work as a backend software developer building and maintaining secure, enterprise-grade systems. I develop Java services, automate CI/CD security workflows, and lead vulnerability remediation efforts across dozens of repositories, helping improve reliability, scalability, and the organization’s overall security posture.
+                                    </p>
+                                    <a className = "image"> <img src = {ibmbanner} style = { {marginLeft: "auto" },{marginRight: "auto"}, {height: "100%"}, {width: "100%"} }/></a>
+                                    </div>
+                                </header>
+                            </section>
                                     <section id = "wrapper alt spotlight style2">
                                 <header>
                                     <h3 className="major">Open Text Corporation Software Developer</h3>
