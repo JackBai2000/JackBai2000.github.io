@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.8501dcfc.chunk.css",
-    "main.js": "/static/js/main.112dde9f.chunk.js",
-    "main.js.map": "/static/js/main.112dde9f.chunk.js.map",
+    "main.js": "/static/js/main.75cd9e58.chunk.js",
+    "main.js.map": "/static/js/main.75cd9e58.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a4ca427a.js",
     "runtime-main.js.map": "/static/js/runtime-main.a4ca427a.js.map",
     "static/js/2.c3edc52b.chunk.js": "/static/js/2.c3edc52b.chunk.js",
@@ -11,6 +11,7 @@
     "static/css/main.8501dcfc.chunk.css.map": "/static/css/main.8501dcfc.chunk.css.map",
     "static/js/2.c3edc52b.chunk.js.LICENSE.txt": "/static/js/2.c3edc52b.chunk.js.LICENSE.txt",
     "static/media/Difference in Pick Rate vs Win Rate (Clash - SoloQ).864eff61.png": "/static/media/Difference in Pick Rate vs Win Rate (Clash - SoloQ).864eff61.png",
+    "static/media/IBM.3c094f91.jpg": "/static/media/IBM.3c094f91.jpg",
     "static/media/JackBaiResume.50bde6b3.pdf": "/static/media/JackBaiResume.50bde6b3.pdf",
     "static/media/Riot-Stat-Project.c41c965b.pdf": "/static/media/Riot-Stat-Project.c41c965b.pdf",
     "static/media/Solo Queue vs Clash Games Picked.2640c918.png": "/static/media/Solo Queue vs Clash Games Picked.2640c918.png",
@@ -22,6 +23,7 @@
     "static/media/firelevel.072f3f83.png": "/static/media/firelevel.072f3f83.png",
     "static/media/gameplay.733d8652.png": "/static/media/gameplay.733d8652.png",
     "static/media/heritage2.7f47292b.png": "/static/media/heritage2.7f47292b.png",
+    "static/media/ibmbanner.ef81f056.png": "/static/media/ibmbanner.ef81f056.png",
     "static/media/icelevel.97717d53.png": "/static/media/icelevel.97717d53.png",
     "static/media/isthisok.518ecccc.jpg": "/static/media/isthisok.518ecccc.jpg",
     "static/media/kek.7f97723f.jpg": "/static/media/kek.7f97723f.jpg",
@@ -42,6 +44,6 @@
     "static/js/runtime-main.a4ca427a.js",
     "static/js/2.c3edc52b.chunk.js",
     "static/css/main.8501dcfc.chunk.css",
-    "static/js/main.112dde9f.chunk.js"
+    "static/js/main.75cd9e58.chunk.js"
   ]
 }
